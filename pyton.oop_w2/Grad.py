@@ -8,7 +8,7 @@ elif score >= 60:
     print("เกรด 2")
 elif score >= 50:
     print("เกรด 1")
-elif score == 5:
+elif score == 50:
     print("เกรด 0")
 
 else :
