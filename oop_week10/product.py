@@ -63,7 +63,10 @@ class Costume(Product):
 
 # เพิ่มสินค้า ชื่อ ไม้เเบดมินตัน VS Titan9 ราคา 1490 ในสต๊อกมี 30
 product1 = Product("ไม้เเบดมินตัน VS Titan9", 1490, 30)
-phone1 = Phone("Vivo", 6999, 40, "โทรศัพท์")
+product1.add_stock(30)
+product1.update_price(1590)
+print("--------------------------------")
+phone1 = Phone("Vivo", 5999, 40, "โทรศัพท์")
 notebook1 = Notebook("Acer", 20000, 25, "โน๊ตบุ๊ค")
 costume1 = Costume("เสื้อวอร์ม", 200, 90, "เสื้อผ้า")
 
