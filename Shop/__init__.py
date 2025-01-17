@@ -92,7 +92,7 @@ result_select = Managerdb('localhost','root','1234','shop')
 #print(result_select.deletdb('products', 'product_id', 112))
 
 #เเก้ไข
-#print(result_select.editdb('categorie', 'category_name', 'category_id', 2223, 'ไม้กอล์ฟ'))
+#print(result_select.editdb('categories', 'category_name', 'category_id', 2223, 'ไม้กอล์ฟ'))
 
 #เพิ่มข้อมูล
 print(result_select.insert_categories('ไม้เปตอง'))
