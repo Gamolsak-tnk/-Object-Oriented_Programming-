@@ -69,7 +69,7 @@ class Managerdb:
         else:
             return False
         
-    def insert(self, name,des,price,stock):
+    def insert_product(self, name,des,price,stock):
         sql = "INSERT INTO product VALUES (%s, %s, %s, %s, %s)"
         val_sql = (None, name,des,price,stock)
         self.mycursor.execute(sql, val_sql)
